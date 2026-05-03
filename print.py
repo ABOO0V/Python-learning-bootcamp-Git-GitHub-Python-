@@ -7,8 +7,7 @@ print('21+1')
 
 print()
 
-print("Name: Bob \nAge:19")
-print("Name: Bob2 \n\tAge2:20")
+print("Name Zoho, ""Age:", 21)
 
 # \n = new line
 # \t = Tab or 4 space
@@ -33,7 +32,41 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 print()
 
-print("This is uploded in GitHub via Git")
+print("This is one line ", end=" ")
+print("and this is continue on the same line")
+print(' end="" continue on the same line')
+
+print()
+
+print("apple", "cherry", sep=" /|-")
+# sep = "separator symble"
+
+print()
+
+name = "Linux"
+age = 20
+height = 6.1
+
+print(f"Name: {name}, Age: {age}, Height {height}")
+
+print()
+
+print("using '.formate()' method")
+# .format() method (Python 2.6+)
+print("Name: {}, Age: {}, Height: {}" .format(name, age, height))
+
+
+print("They said, \"How are you?\"")
+print("Try \"Try it!\" ") #"Try it!" - output
+
+
+print()
+print("r")
+# The 'r' makes it a raw string
+print(r"C:\Users\Name\Documents")
+print(r"/user/local/bin/pen")
+
+
 
 ''' multiline comment'''
 # Single line comment
